@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\ShoppingCart_TrendyolCase\ShoppingCard_TrendyolCase\bin\Debug\ShoppingCard_TrendyolCase.exe.config
+C:\Users\User\source\repos\ShoppingCart_TrendyolCase\ShoppingCard_TrendyolCase\bin\Debug\ShoppingCard_TrendyolCase.exe
+C:\Users\User\source\repos\ShoppingCart_TrendyolCase\ShoppingCard_TrendyolCase\bin\Debug\ShoppingCard_TrendyolCase.pdb
+C:\Users\User\source\repos\ShoppingCart_TrendyolCase\ShoppingCard_TrendyolCase\obj\Debug\ShoppingCard_TrendyolCase.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ShoppingCart_TrendyolCase\ShoppingCard_TrendyolCase\obj\Debug\ShoppingCard_TrendyolCase.exe
+C:\Users\User\source\repos\ShoppingCart_TrendyolCase\ShoppingCard_TrendyolCase\obj\Debug\ShoppingCard_TrendyolCase.pdb
+C:\Users\User\source\repos\ShoppingCart_TrendyolCase\ShoppingCard_TrendyolCase\obj\Debug\ShoppingCard_TrendyolCase.csprojAssemblyReference.cache
