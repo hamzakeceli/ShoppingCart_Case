@@ -190,7 +190,7 @@ namespace ShoppingCart_TrendyolCase
             {
                 if (!AppliedCoupon)
                 {
-                      CalculateTotalAmount();
+                    CalculateTotalAmount();
                     if (TotalAmount >= coupon.MinPurchaseAmount)
                     {
                         AppliedCoupon = true;
@@ -223,7 +223,7 @@ namespace ShoppingCart_TrendyolCase
                 System.Console.WriteLine("Campaign discount must be applied first");
             }
         }
-        
+
         public void Print()
         {
             System.Console.WriteLine();
@@ -238,7 +238,7 @@ namespace ShoppingCart_TrendyolCase
             System.Console.WriteLine();
 
             System.Console.WriteLine("Total-Amount\tTotal-Discount\tTotalAmountAfterDiscounts\tDelivery-Cost");
-            System.Console.WriteLine("{0}\t\t{1}+{2}={3}\t{4}\t\t\t\t{5}", GetTotalAmount(), CampaignDiscount ,CouponDiscount, CampaignDiscount+CouponDiscount, GetTotalAmountAfterDiscounts(), DeliverCost);
+            System.Console.WriteLine("{0}\t\t{1}+{2}={3}\t{4}\t\t\t\t{5}", GetTotalAmount(), CampaignDiscount, CouponDiscount, CampaignDiscount + CouponDiscount, GetTotalAmountAfterDiscounts(), DeliverCost);
 
         }
 
