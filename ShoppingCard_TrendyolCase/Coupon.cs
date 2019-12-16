@@ -2,11 +2,11 @@
 {
     public class Coupon
     {
-        public double MinPurchaseAmount { get; set; }
+        public double MinPurchaseAmount { get;}
 
-        public double DiscountValue { get; set; }
+        public double DiscountValue { get;}
 
-        public DiscountType DiscountType { get; set; }
+        public DiscountType DiscountType { get;}
 
         public Coupon(double minPurchaseAmount, double discountValue, DiscountType discountType)
         {

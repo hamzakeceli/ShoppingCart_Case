@@ -3,9 +3,9 @@ namespace ShoppingCart_TrendyolCase
 {
     public class Category
     {
-        public string Name { get; set; }
+        public string Name { get;}
 
-        public Category UpperCategory { get; set; }
+        public Category UpperCategory { get;}
 
 
         public Category(string categoryName)
