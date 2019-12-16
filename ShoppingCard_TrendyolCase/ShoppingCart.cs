@@ -32,7 +32,7 @@ namespace ShoppingCart_TrendyolCase
         }
         public double GetTotalAmountAfterDiscounts()
         {
-            TotalAmountAfterDiscounts = TotalAmount - (CampaignDiscount + CouponDiscount);
+            TotalAmountAfterDiscounts = GetTotalAmount() - (CampaignDiscount + CouponDiscount);
             return TotalAmountAfterDiscounts;
         }
 
@@ -80,7 +80,7 @@ namespace ShoppingCart_TrendyolCase
         {
             GetCategoriesInCart(ProductsInCart);
             AppliedDiscounts = true;
-            CalculateTotalAmount();
+            //CalculateTotalAmount();
             double discountMax = 0, discountEmpty = 0;
 
             foreach (Category category in categoriesInCart)
@@ -190,6 +190,7 @@ namespace ShoppingCart_TrendyolCase
             {
                 if (!AppliedCoupon)
                 {
+                      CalculateTotalAmount();
                     if (TotalAmount >= coupon.MinPurchaseAmount)
                     {
                         AppliedCoupon = true;
